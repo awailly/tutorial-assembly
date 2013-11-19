@@ -12,6 +12,11 @@ Command lines
     ld -s -o file file.o
     ./file
 
+For Windows, you can use `alink`, `golink` or `ld`:
+
+    nasm -f win32 "tutorial-assembly\shellcode_kernel_win.s"
+    alink -entry _start -subsys con -oPE "tutorial-assembly\shellcode_kernel_win.obj"
+
 GNU as
 ------
 
