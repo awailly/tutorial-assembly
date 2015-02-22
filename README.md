@@ -38,7 +38,7 @@ The previous section created a complete executable. To assemble only the instruc
 
     xxd -i file.o
 
-### Test the shellcode
+### Test
 
 You can execute the assembly instructions with a small snippet calling the C array.
 
